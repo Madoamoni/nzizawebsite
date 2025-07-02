@@ -1,0 +1,221 @@
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 128, 0, 0.726),rgba(237, 237, 65, 0.768)),url(./images/R.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+.header{
+    
+    font-family: "poppins",  sans-serif;
+    
+    color: hsl(89, 11%, 41%);
+    scroll-behavior: smooth;
+    position: fixed;
+    width: 100%;
+    
+
+
+}
+.header li a{
+    text-decoration: none;
+}
+
+.nav ul{
+    width: 100%;
+    height: 80px;
+    background-color: #4fddfc27;
+    margin-left: 10px;
+    
+
+}
+.logo img{
+    width: 80px;
+    height: 60px;
+    background-color: blue;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+.logo img{
+    width: 80px;
+    height: 60px;
+    background-color: blue;
+    margin-top: 10px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    margin-left: 20px;
+    padding-left: 30px;
+
+}
+
+
+.nav ul li {
+    padding: 40px;
+    margin-top: -20px;
+    margin-left: 30px;
+    
+
+    
+}
+.nav ul li a{
+    transition: color 0.3s ease;
+    text-shadow: rgb(231, 86, 86);
+}
+.nav ul  li a:hover{
+    clip-rule: 2px;
+    border-bottom: double red 2px;
+}
+
+body{
+    position: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.container{
+    width: 100%;
+    height: 350px;
+
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.container .image{
+    width: 100%;
+    height: 900px;
+    display: flex;
+
+}
+
+.image img{
+    width: 45%;
+    height: 350px;
+    margin-left: 5%;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 10px;
+}
+
+
+.container p{
+    width: 45%;
+    height: 350px;
+    color: rgb(8, 1, 1);
+    font: size 20px;
+    text-align: center;
+    margin-left: 30px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-top: -2px;
+    border-radius: 10px;
+}
+.icon img{
+    margin-top: 20px;
+    width: 50%;
+    height:400px ;
+    margin-left: 270px;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 10px;
+}
+.icon img{
+
+    width: 50%;
+    height:400px ;
+    margin-left: 270px;
+    margin-top: -3px;
+    
+}
+.tik{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-top: 20px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.281),rgba(255, 255, 0, 0.4), rgba(0, 128, 0, 0.279));
+}
+.pik{
+    
+    width: 40%;
+    height: 400px;
+    margin-left: 5%;
+}
+.mission h1{
+    height: 125;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -3px;
+      box-shadow: 1px 1px 1px 1px;
+}
+.mission h1:hover{
+    background-color: rgba(0, 255, 255, 0.427);
+}
+.vision h2{
+    height: 130;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -3px;
+    box-shadow: 1px 1px 1px 1px;
+}
+.vision h2:hover{
+    background-color: rgba(255, 0, 200, 0.427);
+}
+.obj h3{
+    height: 130;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -6px;
+      box-shadow: 1px 1px 1px 1px;
+}
+.obj h3:hover{
+    background-color: rgba(0, 81, 255, 0.427);
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin-top: 10px;
+    color: white;
+}
+.footer ul li{
+
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+    padding: 10px 10px 10px;
+
+}
+.footer ul li:hover{
+    color: red;
+    cursor: pointer;
+}
+.logo1 img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: bisque;
+    border-radius: 30px;
+    margin-left: 50%;
+}
+.logo1 img :hover{
+    border-bottom: dotted blue;
+}
+.t1 h5{
+    color: white;
+    margin-left: 70%;
+    margin-top:-100px;
+}
+.t1 h5:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
